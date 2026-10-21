@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "description": "Ground truth evaluation dataset for Promptify semantic retrieval over curated song snippets.",
+  "cases": [
+    {
+      "id": "case_01",
+      "query": "heartbroken and weeping alone at night",
+      "expected_snippets": [
+        "Hello darkness, my old friend",
+        "Tears in heaven, would you know my name",
+        "I'm so lonesome I could cry",
+        "Everybody hurts, sometimes",
+        "All by myself, don't want to be all by myself"
+      ],
+      "category": "Sad/Melancholic"
+    },
+    {
+      "id": "case_02",
+      "query": "deep romantic love and lifelong devotion",
+      "expected_snippets": [
+        "Can't help falling in love with you",
+        "I will always love you",
+        "All of me, loves all of you",
+        "I found a love for me",
+        "Perfect, we found love right where we are"
+      ],
+      "category": "Love/Romantic"
+    },
+    {
+      "id": "case_03",
+      "query": "workout gym motivation never giving up",
+      "expected_snippets": [
+        "Eye of the tiger, it's the eye of the tiger",
+        "I'm a survivor, I'm not gonna give up",
+        "We are the champions, my friends",
+        "Don't stop believing, hold on to that feeling",
+        "We will rock you, we will rock you"
+      ],
+      "category": "Motivational/Inspirational"
+    },
+    {
+      "id": "case_04",
+      "query": "sunny beach drive tropical reggaeton dancing",
+      "expected_snippets": [
+        "Despacito, slowly",
+        "Mi gente, my people",
+        "Gasolina, give me gasolina",
+        "La Bicicleta, vamos a la playa",
+        "Vivir Mi Vida, I'm going to live my life"
+      ],
+      "category": "Latin/Reggaeton"
+    },
+    {
+      "id": "case_05",
+      "query": "high energy club party dance floor anthem",
+      "expected_snippets": [
+        "We're up all night to get lucky",
+        "Tonight's gonna be a good night",
+        "Get the party started",
+        "Let's get it started in here",
+        "Dance the night away"
+      ],
+      "category": "Electronic/Dance"
+    },
+    {
+      "id": "case_06",
+      "query": "classic 70s rock nostalgia guitar solos",
+      "expected_snippets": [
+        "Hotel California, welcome to the hotel",
+        "Bohemian Rhapsody, is this the real life",
+        "Sweet child of mine",
+        "Stairway to heaven",
+        "Smells like teen spirit"
+      ],
+      "category": "Rock/Alternative"
+    },
+    {
+      "id": "case_07",
+      "query": "chill acoustic backroads country storytelling",
+      "expected_snippets": [
+        "Country roads, take me home",
+        "Sitting on the dock of the bay",
+        "Jolene, Jolene, Jolene, Jolene",
+        "The Gambler, you got to know when to hold 'em",
+        "Ring of fire, I fell into a burning ring of fire"
+      ],
+      "category": "Country"
+    },
+    {
+      "id": "case_08",
+      "query": "afrobeats lagos groove summer party",
+      "expected_snippets": [
+        "Rush, rush, rush into my arms",
+        "Essence, you're my essence",
+        "Calm Down, take it easy",
+        "Last Last, I don't want to lose you",
+        "Love Nwantiti, I want you"
+      ],
+      "category": "Afrobeat/African Pop"
+    },
+    {
+      "id": "case_09",
+      "query": "upbeat empowering self love feel good vibes",
+      "expected_snippets": [
+        "Good as Hell, I'm feeling good as hell",
+        "About Damn Time, it's about damn time",
+        "Flowers, I can buy myself flowers",
+        "Break My Soul, you won't break my soul"
+      ],
+      "category": "R&B/Soul"
+    },
+    {
+      "id": "case_10",
+      "query": "gritty street rap hustle from the bottom",
+      "expected_snippets": [
+        "Started from the bottom now we here",
+        "Straight outta Compton",
+        "God's Plan, I only love my bed and my mama",
+        "Be humble, sit down"
+      ],
+      "category": "Hip Hop/Rap"
+    },
+    {
+      "id": "case_11",
+      "query": "k-pop energetic choreography catchy hooks",
+      "expected_snippets": [
+        "Dynamite, light it up like dynamite",
+        "Butter, smooth like butter",
+        "How you like that?",
+        "Hit you with that ddu-du, ddu-du, du"
+      ],
+      "category": "K-Pop"
+    },
+    {
+      "id": "case_12",
+      "query": "radio pop cheerful viral upbeat dance",
+      "expected_snippets": [
+        "Levitating, I'm levitating",
+        "Blinding Lights, I'm blinded by the lights",
+        "Watermelon Sugar, high",
+        "Happy, clap along if you feel",
+        "Dance Monkey, dance for me"
+      ],
+      "category": "Pop Hits"
+    }
+  ]
+}
